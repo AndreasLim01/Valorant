@@ -7,7 +7,15 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		049D5F71283C772E00D55D2B /* Profile.swift in Sources */ = {isa = PBXBuildFile; fileRef = 049D5F70283C772E00D55D2B /* Profile.swift */; };
 		04C1D3BE283C676F003B7FCD /* SlideBanner.swift in Sources */ = {isa = PBXBuildFile; fileRef = 04C1D3BD283C676F003B7FCD /* SlideBanner.swift */; };
+		04E4A05A283F43B700B628AC /* Home.swift in Sources */ = {isa = PBXBuildFile; fileRef = 04E4A059283F43B700B628AC /* Home.swift */; };
+		04E69146283FCDCB0087500D /* agentData.json in Resources */ = {isa = PBXBuildFile; fileRef = 04E69145283FCDCB0087500D /* agentData.json */; };
+		04E69148283FCDEF0087500D /* Agent.swift in Sources */ = {isa = PBXBuildFile; fileRef = 04E69147283FCDEF0087500D /* Agent.swift */; };
+		04E6914A283FD0D30087500D /* AgentData.swift in Sources */ = {isa = PBXBuildFile; fileRef = 04E69149283FD0D30087500D /* AgentData.swift */; };
+		04E6914F283FD6AC0087500D /* AgentRow.swift in Sources */ = {isa = PBXBuildFile; fileRef = 04E6914E283FD6AC0087500D /* AgentRow.swift */; };
+		04E69151283FE1690087500D /* AgentList.swift in Sources */ = {isa = PBXBuildFile; fileRef = 04E69150283FE1690087500D /* AgentList.swift */; };
+		04E69153283FE5000087500D /* AgentDetail.swift in Sources */ = {isa = PBXBuildFile; fileRef = 04E69152283FE5000087500D /* AgentDetail.swift */; };
 		04F27201283BA6F200676C56 /* ALP_0706012010007App.swift in Sources */ = {isa = PBXBuildFile; fileRef = 04F27200283BA6F200676C56 /* ALP_0706012010007App.swift */; };
 		04F27203283BA6F200676C56 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 04F27202283BA6F200676C56 /* ContentView.swift */; };
 		04F27205283BA6F600676C56 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 04F27204283BA6F600676C56 /* Assets.xcassets */; };
@@ -37,7 +45,15 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		049D5F70283C772E00D55D2B /* Profile.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Profile.swift; sourceTree = "<group>"; };
 		04C1D3BD283C676F003B7FCD /* SlideBanner.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SlideBanner.swift; sourceTree = "<group>"; };
+		04E4A059283F43B700B628AC /* Home.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Home.swift; sourceTree = "<group>"; };
+		04E69145283FCDCB0087500D /* agentData.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = agentData.json; sourceTree = "<group>"; };
+		04E69147283FCDEF0087500D /* Agent.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Agent.swift; sourceTree = "<group>"; };
+		04E69149283FD0D30087500D /* AgentData.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AgentData.swift; sourceTree = "<group>"; };
+		04E6914E283FD6AC0087500D /* AgentRow.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AgentRow.swift; sourceTree = "<group>"; };
+		04E69150283FE1690087500D /* AgentList.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AgentList.swift; sourceTree = "<group>"; };
+		04E69152283FE5000087500D /* AgentDetail.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AgentDetail.swift; sourceTree = "<group>"; };
 		04F271FD283BA6F200676C56 /* ALP_0706012010007.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = ALP_0706012010007.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		04F27200283BA6F200676C56 /* ALP_0706012010007App.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ALP_0706012010007App.swift; sourceTree = "<group>"; };
 		04F27202283BA6F200676C56 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
@@ -77,6 +93,39 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		04E6914B283FD6120087500D /* Views */ = {
+			isa = PBXGroup;
+			children = (
+				04E4A059283F43B700B628AC /* Home.swift */,
+				049D5F70283C772E00D55D2B /* Profile.swift */,
+				04E6914E283FD6AC0087500D /* AgentRow.swift */,
+				04E69150283FE1690087500D /* AgentList.swift */,
+				04E69152283FE5000087500D /* AgentDetail.swift */,
+				04F2722A283BA8C100676C56 /* CircleImage.swift */,
+				04F27202283BA6F200676C56 /* ContentView.swift */,
+				04F2722C283BB07B00676C56 /* ProfileBanner.swift */,
+				04C1D3BD283C676F003B7FCD /* SlideBanner.swift */,
+			);
+			path = Views;
+			sourceTree = "<group>";
+		};
+		04E6914C283FD6200087500D /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				04E69149283FD0D30087500D /* AgentData.swift */,
+				04E69147283FCDEF0087500D /* Agent.swift */,
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
+		04E6914D283FD6290087500D /* Resources */ = {
+			isa = PBXGroup;
+			children = (
+				04E69145283FCDCB0087500D /* agentData.json */,
+			);
+			path = Resources;
+			sourceTree = "<group>";
+		};
 		04F271F4283BA6F200676C56 = {
 			isa = PBXGroup;
 			children = (
@@ -101,10 +150,9 @@
 			isa = PBXGroup;
 			children = (
 				04F27200283BA6F200676C56 /* ALP_0706012010007App.swift */,
-				04F27202283BA6F200676C56 /* ContentView.swift */,
-				04F2722A283BA8C100676C56 /* CircleImage.swift */,
-				04F2722C283BB07B00676C56 /* ProfileBanner.swift */,
-				04C1D3BD283C676F003B7FCD /* SlideBanner.swift */,
+				04E6914B283FD6120087500D /* Views */,
+				04E6914C283FD6200087500D /* Model */,
+				04E6914D283FD6290087500D /* Resources */,
 				04F27204283BA6F600676C56 /* Assets.xcassets */,
 				04F27206283BA6F600676C56 /* Preview Content */,
 			);
@@ -241,6 +289,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				04F27208283BA6F600676C56 /* Preview Assets.xcassets in Resources */,
+				04E69146283FCDCB0087500D /* agentData.json in Resources */,
 				04F27205283BA6F600676C56 /* Assets.xcassets in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -267,10 +316,17 @@
 			buildActionMask = 2147483647;
 			files = (
 				04C1D3BE283C676F003B7FCD /* SlideBanner.swift in Sources */,
+				049D5F71283C772E00D55D2B /* Profile.swift in Sources */,
 				04F27203283BA6F200676C56 /* ContentView.swift in Sources */,
 				04F2722D283BB07B00676C56 /* ProfileBanner.swift in Sources */,
+				04E69151283FE1690087500D /* AgentList.swift in Sources */,
+				04E6914F283FD6AC0087500D /* AgentRow.swift in Sources */,
+				04E69153283FE5000087500D /* AgentDetail.swift in Sources */,
 				04F27201283BA6F200676C56 /* ALP_0706012010007App.swift in Sources */,
+				04E69148283FCDEF0087500D /* Agent.swift in Sources */,
 				04F2722B283BA8C100676C56 /* CircleImage.swift in Sources */,
+				04E6914A283FD0D30087500D /* AgentData.swift in Sources */,
+				04E4A05A283F43B700B628AC /* Home.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
