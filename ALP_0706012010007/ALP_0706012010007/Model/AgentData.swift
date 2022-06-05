@@ -6,8 +6,11 @@
 //
 
 import Foundation
+import Combine
 
-var agents: [Agent] = load("agentData.json")
+final class AgentData: ObservableObject {
+    @Published var agents: [Agent] = load("agentData.json")
+}
 
 func load<T: Decodable>(_ filename: String) -> T {
     let data: Data

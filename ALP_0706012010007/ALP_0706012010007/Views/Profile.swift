@@ -78,21 +78,19 @@ struct Profile: View {
                 
             }
             .padding()
-            
-            HStack {
-                Spacer()
-                Image("Frame1")
-                    .resizable()
-                    .frame(width: 280, height: 150)
-                Image("Frame2")
-                    .resizable()
-                    .frame(width: 280, height: 150)
+        
+            ScrollView(.horizontal){
+                HStack {
+                    Image("Frame1")
+                        .resizable()
+                        .frame(width: 280, height: 150)
+                    Image("Frame2")
+                        .resizable()
+                        .frame(width: 280, height: 150)
+                }
+                .padding(.leading, 160)
+                .frame(width: 430, height: 150)
             }
-            .padding(.leading, 180)
-            .frame(width: 430, height: 150)
-            .clipped()
-            
-            
             Spacer()
         }
     }

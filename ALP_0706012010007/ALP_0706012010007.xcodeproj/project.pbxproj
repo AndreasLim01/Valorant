@@ -25,6 +25,7 @@
 		04F2721E283BA6F600676C56 /* ALP_0706012010007UITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 04F2721D283BA6F600676C56 /* ALP_0706012010007UITestsLaunchTests.swift */; };
 		04F2722B283BA8C100676C56 /* CircleImage.swift in Sources */ = {isa = PBXBuildFile; fileRef = 04F2722A283BA8C100676C56 /* CircleImage.swift */; };
 		04F2722D283BB07B00676C56 /* ProfileBanner.swift in Sources */ = {isa = PBXBuildFile; fileRef = 04F2722C283BB07B00676C56 /* ProfileBanner.swift */; };
+		04FE8292284BB7500009BAC9 /* CareerCard.swift in Sources */ = {isa = PBXBuildFile; fileRef = 04FE8291284BB7500009BAC9 /* CareerCard.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -66,6 +67,7 @@
 		04F2721D283BA6F600676C56 /* ALP_0706012010007UITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ALP_0706012010007UITestsLaunchTests.swift; sourceTree = "<group>"; };
 		04F2722A283BA8C100676C56 /* CircleImage.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CircleImage.swift; sourceTree = "<group>"; };
 		04F2722C283BB07B00676C56 /* ProfileBanner.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ProfileBanner.swift; sourceTree = "<group>"; };
+		04FE8291284BB7500009BAC9 /* CareerCard.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CareerCard.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -105,6 +107,7 @@
 				04F27202283BA6F200676C56 /* ContentView.swift */,
 				04F2722C283BB07B00676C56 /* ProfileBanner.swift */,
 				04C1D3BD283C676F003B7FCD /* SlideBanner.swift */,
+				04FE8291284BB7500009BAC9 /* CareerCard.swift */,
 			);
 			path = Views;
 			sourceTree = "<group>";
@@ -317,6 +320,7 @@
 			files = (
 				04C1D3BE283C676F003B7FCD /* SlideBanner.swift in Sources */,
 				049D5F71283C772E00D55D2B /* Profile.swift in Sources */,
+				04FE8292284BB7500009BAC9 /* CareerCard.swift in Sources */,
 				04F27203283BA6F200676C56 /* ContentView.swift in Sources */,
 				04F2722D283BB07B00676C56 /* ProfileBanner.swift in Sources */,
 				04E69151283FE1690087500D /* AgentList.swift in Sources */,
