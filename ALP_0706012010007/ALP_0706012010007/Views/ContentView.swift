@@ -12,6 +12,8 @@ struct ContentView: View {
         UITableView.appearance().backgroundColor = .white
     }
     
+    @StateObject var agentData = AgentData()
+    
     @State private var selection: Tab = .featured
 
     enum Tab {
@@ -26,6 +28,7 @@ struct ContentView: View {
                     Label("Agent", systemImage: "list.bullet")
                 }
                 .tag(Tab.featured)
+                .environmentObject(agentData)
 
             Profile()
                 .tabItem {
